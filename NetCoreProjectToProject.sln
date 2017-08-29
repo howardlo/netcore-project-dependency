@@ -1,20 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{64BE25C1-9164-4FA2-AD6E-C3F8BA221A7B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A129E4B7-F0CF-4999-A43B-D1ACBD2CCF45}"
-	ProjectSection(SolutionItems) = preProject
-		global.json = global.json
-	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "NetCoreProjectToProject", "src\NetCoreProjectToProject\NetCoreProjectToProject.xproj", "{87EBCC8D-E35C-4EE7-BBFB-00644792798E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreProjectToProject", "src\NetCoreProjectToProject\NetCoreProjectToProject.csproj", "{87EBCC8D-E35C-4EE7-BBFB-00644792798E}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ClassLibraryA", "src\ClassLibraryA\ClassLibraryA.xproj", "{3BA3D4CD-FDB7-4FEE-946F-A74B00B87A88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibraryA", "src\ClassLibraryA\ClassLibraryA.csproj", "{3BA3D4CD-FDB7-4FEE-946F-A74B00B87A88}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ClassLibraryB", "src\ClassLibraryB\ClassLibraryB.xproj", "{56530A4A-3633-474E-9E40-25EEBB8C26F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibraryB", "src\ClassLibraryB\ClassLibraryB.csproj", "{56530A4A-3633-474E-9E40-25EEBB8C26F0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -42,5 +39,8 @@ Global
 		{87EBCC8D-E35C-4EE7-BBFB-00644792798E} = {64BE25C1-9164-4FA2-AD6E-C3F8BA221A7B}
 		{3BA3D4CD-FDB7-4FEE-946F-A74B00B87A88} = {64BE25C1-9164-4FA2-AD6E-C3F8BA221A7B}
 		{56530A4A-3633-474E-9E40-25EEBB8C26F0} = {64BE25C1-9164-4FA2-AD6E-C3F8BA221A7B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B5F1751C-620B-4EA3-A1A9-7FA5C4463830}
 	EndGlobalSection
 EndGlobal
